@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* Header */
+#titulo {
+    color: #e5edff;
+    text-align: center;
+}
+
+.thumbnail {
+    height: 360px;
+    text-align: center;
+}
+
+.thumbnail img {
+    height: 230px;
+}
