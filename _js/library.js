@@ -12,3 +12,7 @@ const getPagina = (url, target) => {
         }
     });
 }
+
+$(document).ready(()=>{
+    getPagina('home.html', 'main');
+})
