@@ -28,6 +28,26 @@
         <div class="row" id="filmes"></div>
     </div>
 
+    <div class="container mt-5 bg-blue text-snow">
+        <h3 class="text-center mb-3">Faça o seu comentarios</h3>
+        <form id="formulario">
+            <div class="form-group">
+                <label for="inputName">Nome</label>
+                <input type="email" class="form-control" id="inputName" placeholder="Seu nome" required>
+            </div>
+            <div class="form-group">
+                <label for="inputText">Comentario</label>
+                <textarea class="form-control" id="inputText" rows="3" placeholder="Comente aqui" required></textarea>
+            </div>
+
+            <fiv class="form-group">
+                <span class="input-group-btn d-flex justify-content-center pt-3">
+                    <button class="btn btn-outline-light" type="submit">Comentar</button>
+                </span>
+            </fiv>
+        </form>
+    </div>
+
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
@@ -40,6 +60,7 @@
     <!-- JS -->
     <script src="./_js/main.js"></script>
     <script>mostraDetalhesFilme();</script>
+    <script src="./_js/comentario.js"></script>
 </body>
 
 </html>
