@@ -6,4 +6,14 @@ hr {
 
 .img-cartaz {
     width: 25%;
+    height: 25%;
 } 
+
+/* .img-cartaz, .sinopse {
+    display: inline-block;
+}
+
+.sinopse {
+    vertical-align: top;
+}
+ */
