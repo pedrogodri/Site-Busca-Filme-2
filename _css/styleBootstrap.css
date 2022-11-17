@@ -4,6 +4,18 @@
     background-color: #164789;
 }
 
+.bg-main {
+    background-color: #8cb6ec;
+}
+
 .text-snow {
+    color: #e5edff;
+}
+
+.text-snow-light {
+    color: #e4e4e4;
+}
+
+.btn-outline-light {
     color: #e5edff;
 }
