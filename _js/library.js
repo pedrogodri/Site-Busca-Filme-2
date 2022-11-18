@@ -17,6 +17,6 @@ $(document).ready(() => {
     getPagina('home.html', 'main');
 });
 
-$(document).click(() => {
-    getPagina('contato.html', 'main');
-});
+// $(document).click(() => {
+//     getPagina('contato.html', 'main');
+// });
