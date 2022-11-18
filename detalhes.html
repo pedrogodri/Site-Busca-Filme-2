@@ -15,6 +15,7 @@
 
 <body>
 
+    <!-- Header -->
     <header class="container">
         <nav class="navbar bg-gray">
             <div class="container-fluid">
@@ -23,17 +24,21 @@
             </div>
         </nav>
     </header>
+    <!-- Header -->
 
+    <!-- Conteudo Princiapl -->
     <div class="container">
         <div class="row" id="filmes"></div>
     </div>
+    <!-- Conteudo Princiapl -->
 
+    <!-- Inserir Comentarios -->
     <div class="container mt-5 bg-blue text-snow">
         <h3 class="text-center mb-3">Faça o seu comentarios</h3>
         <form id="formulario">
             <div class="form-group">
                 <label for="inputName">Nome</label>
-                <input type="email" class="form-control" id="inputName" placeholder="Seu nome" required>
+                <input type="text" class="form-control" id="inputName" placeholder="Seu nome" required>
             </div>
             <div class="form-group">
                 <label for="inputText">Comentario</label>
@@ -47,6 +52,15 @@
             </fiv>
         </form>
     </div>
+    <!-- Inserir Comentarios -->
+
+    <!-- Lista de Comentarios -->
+    <div class="container bg-blue">
+        <div class="p-3 mt-5" id="commentPost">
+            <h5 class="text-center mb-3 text-snow">Comentarios</h5>
+        </div>
+    </div>
+    <!-- Lista de Comentarios -->
 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
