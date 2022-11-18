@@ -13,6 +13,10 @@ const getPagina = (url, target) => {
     });
 }
 
-$(document).ready(()=>{
+$(document).ready(() => {
     getPagina('home.html', 'main');
-})
+});
+
+$(document).click(() => {
+    getPagina('contato.html', 'main');
+});
